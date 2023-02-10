@@ -1,0 +1,59 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: black;
+    font-family: sans-serif;
+    height: 100vh;
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.image-container {
+    max-width:550px;
+}
+
+.image-container img {
+    max-width: 100%;
+}
+
+.image-container h1 {
+    color: white;
+    text-align: left;
+}
+
+.image-container p {
+    color: white;
+}
+
+.btn {
+    padding: 10px 20px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.active.trailer-container {
+    visibility: hidden;
+    opacity: 0;
+}
+
+.trailer-container {
+    position: fixed;
+    opacity: 1;
+    transition: opacity 0.4s;
+}
+
+.trailer-container video {
+    max-width: 900px;
+}
+
+.fa-solid {
+    color: white;
+    position: relative;
+    bottom: 450px;
+    left: 50px;
+    cursor: pointer;
+   
+}

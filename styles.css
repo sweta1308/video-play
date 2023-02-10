@@ -50,6 +50,14 @@ body {
     max-width: 900px;
 }
 
+.btn:hover {
+    background-color: bisque;
+}
+
+.fa-solid:hover {
+    color:brown;
+}
+
 .fa-solid {
     color: white;
     position: relative;
@@ -66,6 +74,10 @@ body {
         margin-top: 50px;
         margin-left: 20px;
 
+    }
+
+    .image-container h1 {
+        margin-left: 20px;
     }
 
     .image-container p {

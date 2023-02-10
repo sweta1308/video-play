@@ -59,7 +59,12 @@ body {
 }
 
 @media (max-width: 480px) {
+    .image-container {
+        width: 350px;
+        margin-bottom: 50px;
+    }
+
     .trailer-container video {
-        max-width: 400px;
+        max-width: 350px;
     }
 }

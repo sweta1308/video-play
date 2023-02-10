@@ -78,6 +78,10 @@ body {
         max-width: 350px;
     }
 
+    .image-container img {
+        height: 200px;
+    }
+
     .trailer-container {
         position: fixed;
     }

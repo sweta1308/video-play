@@ -57,3 +57,9 @@ body {
     cursor: pointer;
    
 }
+
+@media (max-width: 480px) {
+    .trailer-container video {
+        max-width: 400px;
+    }
+}

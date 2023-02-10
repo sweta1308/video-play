@@ -70,6 +70,10 @@ body {
         padding: 20px;
     }
 
+    .btn {
+        margin: 20px;
+    }
+
     .trailer-container video {
         max-width: 350px;
     }

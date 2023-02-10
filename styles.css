@@ -75,8 +75,8 @@ body {
     .fa-solid {
         color: white;
         position: relative;
-        bottom: 330px;
-        left: 300px;
+        bottom: 300px;
+        left: 330px;
         cursor: pointer;
     }
 }

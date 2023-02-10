@@ -67,4 +67,12 @@ body {
     .trailer-container video {
         max-width: 350px;
     }
+
+    .fa-solid {
+        color: white;
+        position: relative;
+        bottom: 300px;
+        left: 20px;
+        cursor: pointer;
+    }
 }

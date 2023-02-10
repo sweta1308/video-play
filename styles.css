@@ -68,6 +68,10 @@ body {
         max-width: 350px;
     }
 
+    .trailer-container {
+        position: fixed;
+    }
+
     .fa-solid {
         color: white;
         position: relative;
